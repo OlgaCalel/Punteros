@@ -1,0 +1,29 @@
+ 	#include <iostream>
+
+using namespace std;
+
+ main(){
+ 	int Edad=30, *p_edad;
+ 	p_edad = &Edad;
+ 	
+ 	cout<<"Variable edad: "<<Edad<<endl;
+ 	cout<<"Puntero edad: "<<*p_edad<<endl;
+ 	
+ 	cout<<"------------------Cambiar valores----------------"<<endl;
+	 *p_edad = 40;
+	 
+	 cout<<"Variable edad: "<<Edad<<endl;
+	 cout<<"Puntero edad: "<<*p_edad<<endl;
+	 
+	 cout<<"------------------Otros valores----------------"<<endl;
+	 int Edad2=100;
+	 p_edad =&Edad2;
+	 Edad=500;
+	 
+	 cout<<"Variable edad: "<<Edad<<endl;
+	 cout<<"Puntero edad: "<<*p_edad<<endl;
+	 	 cout<<"Puntero edad: "<<Edad2<<endl;
+
+	 
+	  	
+}
